@@ -10,6 +10,7 @@ namespace Desafio1_TrabalhandoComClasses.Classes
     public class Pokemon : IPokemon
     {
         public string Trainer { get; set; }
+        
         public string Name { get; set; }
 
         public string Type { get; set; }

@@ -10,6 +10,7 @@ namespace Desafio1_TrabalhandoComClasses.Interfaces
     public interface IPokemon
     {
         public string Trainer { get; set; }
+        
         public string Name { get; set; }
 
         public string Type { get; set; }
